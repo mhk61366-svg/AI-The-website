@@ -109,6 +109,7 @@ border-radius: 8px;
 background-color: #00bcd4;
  color: white;
  border: 1px solid #00bcd4;
+ transition: all 0.5s ease;
  }
 .btn-filled:hover, .btn-filled:active{
 background-color: #00ffc8;
@@ -119,6 +120,7 @@ border: 1px solid #00ffc8;
 background-color: transparent; 
 border: 1px solid #00bcd4;
 color: #00bcd4;
+ transition: all 0.5s ease;
  }
 .btn-outline:hover, .btn-outline:active{
 background-color: transparent;
@@ -192,6 +194,9 @@ margin-top: 2rem;
  align-items: center;
  justify-content: center;
   }
+ .social-icon img{
+width: 35px;
+ } 
  }
 @media(max-width: 46.875rem){
 html{
@@ -205,7 +210,9 @@ align-items: flex-start;
 gap: 2rem;
 margin-top: 2rem;
  }
-
+ .social-icon img{
+width: 25px;
+ } 
 
 
  }
